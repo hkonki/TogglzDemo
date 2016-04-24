@@ -21,7 +21,10 @@ public enum MyFeatures implements Feature
   public boolean isActive() {
       return FeatureContext.getFeatureManager().isActive(this);
   }
-
+@Bean
+public FeatureProvider featureProvider() {
+    return new EnumBasedFeatureProvider(MyFeatures.class);
+}
  
   
 }
