@@ -14,8 +14,8 @@ togglz:
   console:
     enabled: true
     path: /togglz-console
-    feature-admin-authority:
-    secured: false
+    feature-admin-authority: ADMIN
+    secured: true
   endpoint:
     id: togglz
     enabled: true
