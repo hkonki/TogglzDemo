@@ -5,7 +5,7 @@ togglz:
   features:
     FEATURE_ONE: false
     FEATURE_TWO: true
-  features-file:                                         
+  features-file: application.yml                                         
   features-file-min-check-interval:
   cache:
     enabled: false
