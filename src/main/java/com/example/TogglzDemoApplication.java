@@ -13,9 +13,4 @@ public class TogglzDemoApplication {
 		SpringApplication.run(TogglzDemoApplication.class, args);
 	}
 	
-	 @Bean
-	  public FeatureProvider featureProvider()
-	  {
-	    return new EnumBasedFeatureProvider(MyFeatures.class);
-	  }
 }

@@ -1,6 +1,6 @@
 togglz:
   enabled: true
-  feature-enums: com.example.Myfeatures
+  feature-enums: com.example.MyFeatures
   feature-manager-name:
   features:
     FEATURE_ONE: false
