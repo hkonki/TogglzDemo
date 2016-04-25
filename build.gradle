@@ -34,6 +34,7 @@ dependencies {
 	compile("org.togglz:togglz-console:2.3.0.RC1")
 	compile('org.togglz:togglz-servlet:2.3.0.RC1')
 	compile("org.togglz:togglz-spring-boot-starter:2.3.0.RC1")
+	compile("org.togglz:togglz-spring-security:2.3.0.RC1")
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
